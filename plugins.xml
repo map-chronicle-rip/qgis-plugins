@@ -12,16 +12,4 @@
     <file_name>chronicle_workbench.zip</file_name>
     <download_url>https://github.com/map-chronicle-rip/qgis-plugins/releases/download/workbench-0.1.0.30/chronicle_workbench.zip</download_url>
   </pyqgis_plugin>
-  <pyqgis_plugin name="Chronicle MySQL" version="0.1.0.4">
-    <description>Browse a Chronicle MySQL database from the QGIS Browser panel.</description>
-    <about>Adds a MySQL entry to the Browser panel. Open a cemetery and its sections, lots, plots, persons, interments, ROIs and notes arrive as layers with the columns a mapper works with shown first. Read-only.</about>
-    <qgis_minimum_version>3.28</qgis_minimum_version>
-    <author_name>Chronicle</author_name>
-    <tracker>https://github.com/chronicle/chronicle-labs/issues</tracker>
-    <repository>https://github.com/chronicle/chronicle-labs</repository>
-    <experimental>True</experimental>
-    <deprecated>False</deprecated>
-    <file_name>chronicle_mysql.zip</file_name>
-    <download_url>https://github.com/map-chronicle-rip/qgis-plugins/releases/download/mysql-0.1.0.4/chronicle_mysql.zip</download_url>
-  </pyqgis_plugin>
 </plugins>
