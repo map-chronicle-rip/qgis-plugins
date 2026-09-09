@@ -15,14 +15,22 @@ and QGIS hides experimental plugins until you say otherwise.
 ## Adding it to QGIS, once
 
 1. **Plugins ▸ Manage and Install Plugins… ▸ Settings**
-2. Tick **Show also experimental plugins**
-3. Under **Plugin Repositories**, press **Add…** and paste:
+2. Turn on the option to show experimental plugins. These builds are marked
+   experimental, and QGIS hides them until you do.
+3. Under **Plugin Repositories**, press **Add…**. The dialog asks for two
+   things, and **OK stays greyed out until both are filled in**:
 
-   ```
-   https://map-chronicle-rip.github.io/qgis-plugins/plugins.xml
-   ```
+   | Field | What to put |
+   |---|---|
+   | **Name** | `Chronicle` |
+   | **URL** | `https://map-chronicle-rip.github.io/qgis-plugins/plugins.xml` |
 
-4. Go to **All** or **Not installed**, and install **Chronicle Workbench**
+   The URL box starts out holding `http://`. Select what is there and replace
+   it — pasting after it gives you `http://https://…`, and the repository then
+   fails to load.
+
+4. Press **OK**. The repository should say *connected*.
+5. Go to **All** or **Not installed**, and install **Chronicle Workbench**
 
 From then on QGIS offers upgrades the way it does for any other plugin — the
 **Upgradeable** tab, and **Upgrade All**.
