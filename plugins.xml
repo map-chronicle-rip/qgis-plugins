@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="Chronicle Workbench" version="0.1.0.64">
+  <pyqgis_plugin name="Chronicle Workbench" version="0.1.0.65">
     <description>Move cemetery data between Chronicle databases, from one toolbar.</description>
-    <about>A toolbar for the mapping workflow: sync one Chronicle database's structure and reference data onto another, then upload, validate, preview and deploy. Everything it needs is inside it — add the tunnel under Settings ▸ Tunnel and the databases it should reach under Settings ▸ MySQL.</about>
+    <about>A toolbar for the mapping workflow: bring a cemetery into the GIS database (upload a backup, or pull it from Chronicle), put it on the QGIS canvas, edit it there or on a Chronicle-style preview, put a change back, undo an upload, and back the cemetery up. Everything it needs is inside it — the tunnel and the GIS database go under Settings.</about>
     <qgis_minimum_version>3.28</qgis_minimum_version>
     <author_name>Chronicle</author_name>
     <repository>https://github.com/map-chronicle-rip/chronicle-labs</repository>
     <experimental>True</experimental>
     <deprecated>False</deprecated>
     <file_name>chronicle_workbench.zip</file_name>
-    <download_url>https://github.com/map-chronicle-rip/qgis-plugins/releases/download/workbench-0.1.0.64/chronicle_workbench.zip</download_url>
+    <download_url>https://github.com/map-chronicle-rip/qgis-plugins/releases/download/workbench-0.1.0.65/chronicle_workbench.zip</download_url>
   </pyqgis_plugin>
 </plugins>
